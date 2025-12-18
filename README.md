@@ -19,6 +19,22 @@
 - **Bi-Streaming**: Support both text-in streaming and audio-out streaming, and achieves latency as low as 150ms while maintaining high-quality audio output.
 - **Instruct Support**: Supports various instructions such as languages, dialects, emotions, speed, volume, etc.
 
+## What`s new in FastCosyVoice
+
+- More optimized inference
+- Fixed expensive calculations
+- Apply fp16 to llm module
+- Example with faster inference
+
+### Examples:
+
+`simple_run.py` - fast way to try model
+
+`run.py` - inference with torch.compile (take time for compiling and warming)
+
+
+[Telegram](https://t.me/xVibeNot)
+
 
 ## Roadmap
 
